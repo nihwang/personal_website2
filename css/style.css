@@ -1,6 +1,23 @@
 body {
 	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
 }
+/*-----------COMMONLY USED CLASSES--------------*/
+.item {
+	margin-top: 2%;
+	padding-top: 2%;
+	line-height: 150%;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	border: black solid;
+}
+
+.title {
+	font-size: 2em;
+}
+
+/*-----------INTRO----------------*/
 
 #intro {
 	width: 100%;
@@ -15,7 +32,6 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 10%;
-	font-size: 2em;
 	width: 75%;
 }
 
@@ -23,7 +39,6 @@ body {
 	font-family: 'Lobster Two', cursive;	
 	font-size: 5em;
 	padding-top: 10% ;
-	/*border: black solid;*/
 }
 
 .name {
@@ -31,12 +46,16 @@ body {
 	font-size: 3em;
 	font-style: italic;
 	margin-bottom: 2%;
-	/*border: black solid;*/
+}
+
+.description {
+	width: 90%;
 }
 
 /*------SOCIAL BUTTONS-------*/
 .social {
 	width: 100%;
+	margin: 0 auto;
 	margin-top: 2%;
 	text-align: center;
 }
@@ -92,13 +111,19 @@ body {
 }
 
 /*------------ABOUT ME------------*/
-.about-me {
-	margin: 0 auto;
-	text-align: center;
-	border: black solid;
+
+/*------------SKILLS--------------*/
+
+.skills {
+	background-color: #f3f3f3;
+	width: 100%;
 }
 
-.title {
-	font-size: 2em;
+@media only screen and (max-width: 480px) {
+	.item, 
+	.text,
+	.description {
+		width: 100%;
+	}
 }
 
