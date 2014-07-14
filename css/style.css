@@ -91,4 +91,14 @@ body {
 	background: url(../img/social-icons/google1.png);
 }
 
+/*------------ABOUT ME------------*/
+.about-me {
+	margin: 0 auto;
+	text-align: center;
+	border: black solid;
+}
+
+.title {
+	font-size: 2em;
+}
 
