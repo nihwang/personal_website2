@@ -33,3 +33,62 @@ body {
 	margin-bottom: 2%;
 	/*border: black solid;*/
 }
+
+/*------SOCIAL BUTTONS-------*/
+.social {
+	width: 100%;
+	margin-top: 2%;
+	text-align: center;
+}
+.social-buttons li {
+	display: inline;
+}
+
+.social-buttons li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+.github {
+	background: url(../img/social-icons/github.png);
+}
+
+.github:hover {
+	background: url(../img/social-icons/github1.png);
+}
+
+.twitter {
+	background: url(../img/social-icons/twitter.png);
+}
+
+.twitter:hover {
+	background: url(../img/social-icons/twitter1.png);
+}
+.linkedin {
+	background: url(../img/social-icons/linkedin.png);
+}
+
+.linkedin:hover {
+	background: url(../img/social-icons/linkedin1.png);
+}
+
+.tumblr {
+	background: url(../img/social-icons/tumblr.png);
+}
+
+.tumblr:hover {
+	background: url(../img/social-icons/tumblr1.png);
+}
+
+.google {
+	background: url(../img/social-icons/google.png);
+}
+
+.google:hover {
+	background: url(../img/social-icons/google1.png);
+}
+
+
